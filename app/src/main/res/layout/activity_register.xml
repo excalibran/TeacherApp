@@ -1,9 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.williamwinters.teacherapp.RegisterActivity">
+    tools:context="com.example.williamwinters.teacherapp.RegisterActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
-</android.support.constraint.ConstraintLayout>
+    <!--<EditText-->
+        <!--android:id="@+id/RegisterName"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Name"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/RegisterTeacher"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Teacher"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <EditText
+        android:id="@+id/RegisterName"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <!--android:layout_below="@+id/RegisterTeacher"-->
+
+    <EditText
+        android:id="@+id/RegisterUsername"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:layout_width="400dp"
+        android:layout_below="@+id/RegisterName"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/RegisterPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_below="@+id/RegisterUsername"
+        android:inputType="textPassword"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="5dp"/>
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="Register"
+        android:layout_below="@+id/RegisterPassword"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="5dp"/>
+</RelativeLayout>
