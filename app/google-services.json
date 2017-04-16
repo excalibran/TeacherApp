@@ -7,10 +7,6 @@
   },
   "client": [
     {
-      "rules":{
-        ".read": true,
-        ".write": true
-      },
       "client_info": {
         "mobilesdk_app_id": "1:915876740181:android:5160bf49d5528c4c",
         "android_client_info": {
@@ -19,11 +15,102 @@
       },
       "oauth_client": [
         {
+          "client_id": "915876740181-cu11fvnfndevvrbpg2ob2pm4mfebk2m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diego.schoolapp",
+            "certificate_hash": "947d5b9f93c5e9c0dfa744b187b8f529c751cf39"
+          }
+        },
+        {
           "client_id": "915876740181-d2gb43h98cacb3c006olkc5sf64572cd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.diego.schoolapp",
             "certificate_hash": "9c77857a2e8dcdebf1beb66b6f9deb9ff801fafa"
+          }
+        },
+        {
+          "client_id": "915876740181-vob3o2v3rdsi69d94smfjer4h4hmps3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_CJiKx09_qm22glZfzubOFl3Ue0YjhuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915876740181-vob3o2v3rdsi69d94smfjer4h4hmps3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915876740181:android:cba2b7dcabc03f81",
+        "android_client_info": {
+          "package_name": "com.example.williamwinters.TeacherApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915876740181-vob3o2v3rdsi69d94smfjer4h4hmps3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_CJiKx09_qm22glZfzubOFl3Ue0YjhuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915876740181:android:7b424e0bc3ccfe27",
+        "android_client_info": {
+          "package_name": "com.example.williamwinters.teacherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915876740181-erolif66ur6rpicn36e708jra32t897t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.williamwinters.teacherapp",
+            "certificate_hash": "947d5b9f93c5e9c0dfa744b187b8f529c751cf39"
+          }
+        },
+        {
+          "client_id": "915876740181-houm6iq5olf3ti9lko8i4godreg1jank.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.williamwinters.teacherapp",
+            "certificate_hash": "5a94075a5ccbb9c76783c46c1c826cba3f4f4adb"
           }
         },
         {

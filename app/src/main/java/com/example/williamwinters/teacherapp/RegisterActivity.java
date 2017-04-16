@@ -21,13 +21,15 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Date;
+
 
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText etUsername;
     private EditText etPassword;
     private EditText etName;
-    private EditText etTeacher;
+    //private EditText etTeacher;
     private Button bRegister;
 
     private ProgressDialog progressDialog;
@@ -77,11 +79,11 @@ public class RegisterActivity extends AppCompatActivity {
     private void saveUserInformation(){
         String name = etName.getText().toString();
         int points = 0;
-        String teacher = "USER_IS_TEACHER";
+        //String teacher = "USER_IS_TEACHER";
                 //etTeacher.getText().toString();
-        int imageID = 2130837614;
+        //int imageID = 2130837614;
 
-        StudentUser student = new StudentUser(name,teacher,points,imageID);
+        TeacherUser student = new TeacherUser(name);
         FirebaseUser user = mAuth.getCurrentUser();
         databaseReference.child(user.getUid()).setValue(student);
 

@@ -46,6 +46,15 @@ public class EventActivity extends AppCompatActivity {
         studentList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                /*
+                *
+                * Here, upload additional points to selected student
+                *
+                *
+                *
+                *
+                * */
+
 
                 Toast.makeText(EventActivity.this,
                         "ListView: " + parent.toString() + "\n" +
@@ -72,6 +81,12 @@ public class EventActivity extends AppCompatActivity {
             }
         });
 
+
+        /*
+        *
+        * This function is optional
+        *
+        * */
         Button bAddStudentMan = (Button) findViewById(R.id.button_add_student);
         bAddStudentMan.setOnClickListener(new View.OnClickListener() {
             @Override
